@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explora la carta de bebidas de JUCO Café.">
+  <title>JUCO Café · Carta de bebidas</title>
+  <link rel="stylesheet" href="style.css?v=27">
+  <script src="menu.js?v=12" defer></script>
+  <script src="app.js?v=20" defer></script>
+</head>
+<body>
+  <header class="masthead">
+    <div class="wrap top">
+      <a class="brand" href="#" aria-label="JUCO Café, inicio"><img src="juco.webp" width="56" height="56" alt="JUCO Café"></a>
+      <nav class="site-nav" aria-label="Principal">
+        <a href="#menu">Menú</a>
+        <a href="#visita">Visítanos</a>
+      </nav>
+    </div>
+  </header>
+  <main class="wrap">
+    <section class="hero">
+      <div class="intro">
+        <p class="eyebrow">Villanueva, Zacatecas</p>
+        <h1>Más sabor,<br>más <em>JUCO.</em></h1>
+        <p>Café de especialidad, frappés, lattes y matcha.</p>
+        <a class="primary" href="#menu">Ver bebidas</a>
+      </div>
+      <figure class="drink">
+        <div class="drink-viewport">
+          <div class="drink-frame">
+            <img class="cover-photo" src="portada-juco-hd.webp" width="1194" height="1317" alt="JUCO Café. El café siempre es una buena idea.">
+            <div class="category-photo" hidden>
+              <img src="bebidas-categorias.webp" width="1254" height="1254" decoding="async" alt="">
+            </div>
+          </div>
+        </div>
+      </figure>
+      <img class="hero-mascot" src="personaje-juco.png" width="1086" height="1448" alt="" decoding="async">
+    </section>
+    <section id="menu" aria-labelledby="menu-title">
+      <div class="section-heading"><h2 id="menu-title">Menú</h2><a href="carta-juco.jpg">Ver menú original</a></div>
+      <nav id="categories" aria-label="Categorías del menú"></nav>
+      <h3 id="category-title"></h3>
+      <div id="products" aria-labelledby="category-title"></div>
+    </section>
+    <section class="promos" id="promos" aria-label="Promos">
+      <img src="promo-juco.png" width="1280" height="617" loading="lazy" alt="JUCO Promo. Compra 9 bebidas y la décima va por nuestra cuenta. Consigue tu tarjeta de lealtad en la caja.">
+    </section>
+    <section class="visit" id="visita" aria-labelledby="visit-title">
+      <div>
+        <h2 id="visit-title">Nos vemos en JUCO</h2>
+        <address>C. Morelos 28, Centro<br>99540 Villanueva, Zacatecas</address>
+        <div class="visit-actions">
+          <a class="primary" href="https://maps.app.goo.gl/mqc8imcdcs5B7pSD8"><svg class="link-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 5-8 10-8 10S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg>Cómo llegar</a>
+          <div class="visit-contact">
+            <a id="contact-whatsapp" class="primary whatsapp-action" hidden><svg class="link-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 11.7a8.5 8.5 0 0 1-12.7 7.4L3.5 20.5l1.3-4.3a8.5 8.5 0 1 1 15.7-4.5Z"/><path d="M9.2 8.2 8 9c.3 3.2 2.8 5.7 6 6l.8-1.3-2-1-.7.7a5.8 5.8 0 0 1-2.6-2.6l.7-.7-1-1.9Z" fill="currentColor" stroke="none"/></svg>WhatsApp</a>
+            <a class="call-action" href="tel:+524991029266"><svg class="link-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3H4.5A1.5 1.5 0 0 0 3 4.6 17.5 17.5 0 0 0 19.4 21a1.5 1.5 0 0 0 1.6-1.5V17l-5-2-1.5 2a13 13 0 0 1-7.5-7.5L9 8 7 3Z"/></svg>Llámanos</a>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h3>Horario</h3>
+        <dl>
+          <dt>Lunes a sábado</dt><dd>7:00–17:00 y 18:00–21:00</dd>
+          <dt>Domingo</dt><dd>9:00–16:00</dd>
+        </dl>
+        <p>Servicio a domicilio y tarjeta de lealtad.</p>
+      </div>
+    </section>
+    <section class="social-section" aria-labelledby="social-title">
+      <h2 id="social-title">Nuestras redes</h2>
+      <p>Síguenos para descubrir nuevas bebidas y enterarte de las novedades de JUCO.</p>
+      <div class="social-actions">
+        <a class="primary facebook-action" href="https://www.facebook.com/share/1Dp3MTo1d1/?mibextid=wwXIfr"><svg class="link-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" stroke="none" d="M14 21v-8h2.7l.4-3H14V8.1c0-.9.2-1.6 1.6-1.6h1.7V3.8c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3v2H8v3h2.6v8H14Z"/></svg>Facebook</a>
+        <a id="social" class="primary"><svg class="link-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>Instagram</a>
+      </div>
+    </section>
+    <footer class="site-credit">
+      <a href="https://miraidev.com/">Sitio Desarrollado por <strong>MiraiDev</strong></a>
+    </footer>
+  </main>
+  <div class="order-bar" hidden>
+    <div class="wrap"><button id="open-order" type="button" aria-label="Ver selección" aria-haspopup="dialog" aria-controls="order"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5.5 8.5h13l1.5 12h-16l1.5-12Z"/><path d="M9 10V6a3 3 0 0 1 6 0v4"/></svg><span id="count" aria-hidden="true"></span></button></div>
+  </div>
+  <dialog id="order" aria-labelledby="order-title">
+    <form method="dialog" class="dialog-heading">
+      <h2 id="order-title">Tu selección</h2>
+      <button type="submit" aria-label="Cerrar"><svg class="link-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button>
+    </form>
+    <ul id="basket"></ul>
+    <p id="order-total" aria-live="polite" hidden></p>
+    <div class="order-actions">
+      <a id="send" class="primary whatsapp-action" aria-label="Realizar mi pedido por WhatsApp" hidden><svg class="link-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 11.7a8.5 8.5 0 0 1-12.7 7.4L3.5 20.5l1.3-4.3a8.5 8.5 0 1 1 15.7-4.5Z"/><path d="M9.2 8.2 8 9c.3 3.2 2.8 5.7 6 6l.8-1.3-2-1-.7.7a5.8 5.8 0 0 1-2.6-2.6l.7-.7-1-1.9Z" fill="currentColor" stroke="none"/></svg>Realizar mi pedido</a>
+      <a class="call-action" href="tel:+524991029266"><svg class="link-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3H4.5A1.5 1.5 0 0 0 3 4.6 17.5 17.5 0 0 0 19.4 21a1.5 1.5 0 0 0 1.6-1.5V17l-5-2-1.5 2a13 13 0 0 1-7.5-7.5L9 8 7 3Z"/></svg>Llamar a JUCO</a>
+    </div>
+  </dialog>
+  <template id="product-template">
+    <div class="product">
+      <h4></h4>
+      <div class="actions"><select class="temperature" hidden></select><select class="drink-size"></select><button type="button">Agregar</button></div>
+      <label class="milk-preference" hidden>
+        Tipo de leche
+        <select></select>
+      </label>
+    </div>
+  </template>
+</body>
+</html>

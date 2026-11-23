@@ -1,0 +1,2 @@
+/*
+  Content-Security-Policy: default-src 'self'; script-src https://juco-cafe.netlify.app/menu.js https://juco-cafe.netlify.app/app.js https://juco-cafe.miraidev.com/menu.js https://juco-cafe.miraidev.com/app.js; style-src 'self'; img-src 'self' data:; object-src 'none'; base-uri 'self'
