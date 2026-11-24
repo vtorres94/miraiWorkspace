@@ -1,0 +1,122 @@
+{
+  "perfil": "https://www.instagram.com/n3cookies_cafe/",
+  "bio": {
+    "productos_mencionados": [
+      "Galletas estilo New York",
+      "Brownies",
+      "Mostachón",
+      "Biscotti",
+      "Café",
+      "Matcha",
+      "Malteada",
+      "Frappé"
+    ]
+  },
+  "alcance": "Imágenes de la cuadrícula pública. La portada del reel se guarda como imagen. El destacado de galletas solicitó iniciar sesión. Un pie de foto nulo indica que no se pudo recuperar o verificar.",
+  "publicaciones": [
+    {
+      "id": "Dc4Vv6XyFBV",
+      "fecha": "2026-09-04",
+      "fuente": "https://www.instagram.com/n3cookies_cafe/p/Dc4Vv6XyFBV/",
+      "archivo": "Dc4Vv6XyFBV.jpg",
+      "categoria": "horario",
+      "pie_original": null,
+      "descripcion_visual": "Pieza con el horario y un vaso de N3.",
+      "productos_identificados": []
+    },
+    {
+      "id": "Df7mKqLB62B",
+      "fecha": "2026-11-19",
+      "fuente": "https://www.instagram.com/n3cookies_cafe/p/Df7mKqLB62B/",
+      "archivo": "Df7mKqLB62B.jpg",
+      "categoria": "bebidas",
+      "pie_original": "🎄 Pídelas a partir del 23 de noviembre 🎄",
+      "descripcion_visual": "Colección navideña. La imagen indica frío, calientito y frappé.",
+      "productos_identificados": [
+        "Chocolate navideño",
+        "Red velvet",
+        "Bombón tostado"
+      ]
+    },
+    {
+      "id": "DePNmWahImj",
+      "fecha": "2026-10-08",
+      "fuente": "https://www.instagram.com/n3cookies_cafe/p/DePNmWahImj/",
+      "archivo": "DePNmWahImj.jpg",
+      "categoria": "bebidas",
+      "pie_original": "🎃 pumpkin spice\n🍁 Cinnamon toast crunch\n🍪biscoff",
+      "descripcion_visual": "Colección de otoño. La imagen indica frío, calientito y frappé.",
+      "productos_identificados": [
+        "Pumpkin Spice",
+        "Cinnamon Toast Crunch",
+        "Lotus Biscoff"
+      ]
+    },
+    {
+      "id": "DeKLmX6st3-",
+      "fecha": "2026-10-06",
+      "fuente": "https://www.instagram.com/n3cookies_cafe/reel/DeKLmX6st3-/",
+      "archivo": "DeKLmX6st3-.jpg",
+      "categoria": "local",
+      "pie_original": null,
+      "descripcion_visual": "Portada del reel, con estantería rosa, vasos y accesorios del café.",
+      "productos_identificados": []
+    },
+    {
+      "id": "DcrZhDIOA-d",
+      "fecha": "2026-08-30",
+      "fuente": "https://www.instagram.com/n3cookies_cafe/p/DcrZhDIOA-d/",
+      "archivo": "DcrZhDIOA-d.jpg",
+      "categoria": "accesorios",
+      "pie_original": null,
+      "descripcion_visual": "Promoción de Bedazzling en N3 Café.",
+      "productos_identificados": []
+    },
+    {
+      "id": "Dcd7qxcuEsv",
+      "fecha": "2026-08-25",
+      "fuente": "https://www.instagram.com/n3cookies_cafe/p/Dcd7qxcuEsv/",
+      "archivo": "Dcd7qxcuEsv.jpg",
+      "categoria": "accesorios",
+      "pie_original": "Encuéntralos en 📍n3 café",
+      "descripcion_visual": "Publicación de vasos reutilizables con mención de café frío.",
+      "productos_identificados": []
+    },
+    {
+      "id": "DcXnfF1Ov9X",
+      "fecha": "2026-08-22",
+      "fuente": "https://www.instagram.com/n3cookies_cafe/p/DcXnfF1Ov9X/",
+      "archivo": "DcXnfF1Ov9X.jpg",
+      "categoria": "bebidas",
+      "pie_original": null,
+      "descripcion_visual": "Collage con molino, preparación de espresso y café frío en vaso de N3.",
+      "productos_identificados": [
+        "Café frío"
+      ]
+    },
+    {
+      "id": "Db9lmJ6u5FS",
+      "fecha": "2026-08-12",
+      "fuente": "https://www.instagram.com/n3cookies_cafe/p/Db9lmJ6u5FS/",
+      "archivo": "Db9lmJ6u5FS.jpg",
+      "categoria": "bebidas",
+      "pie_original": null,
+      "descripcion_visual": "Anuncio de Pumpkin Spice con cuatro presentaciones fotografiadas.",
+      "productos_identificados": [
+        "Pumpkin Spice"
+      ]
+    },
+    {
+      "id": "Dbvm7EnuIEJ",
+      "fecha": "2026-08-07",
+      "fuente": "https://www.instagram.com/n3cookies_cafe/p/Dbvm7EnuIEJ/",
+      "archivo": "Dbvm7EnuIEJ.jpg",
+      "categoria": "bebidas",
+      "pie_original": null,
+      "descripcion_visual": "La imagen identifica una bebida de taro con cold foam y cereal Lucky Charms.",
+      "productos_identificados": [
+        "Taro Lucky Charms"
+      ]
+    }
+  ]
+}

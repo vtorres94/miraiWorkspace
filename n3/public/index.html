@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>N3 Café · MenúLi</title>
+  <meta name="description" content="Café, matcha, frappés y cookies en Villanueva, Zac. Explora el menú de N3 Café.">
+  <link rel="canonical" href="https://n3-cafe.netlify.app/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_MX">
+  <meta property="og:site_name" content="N3 Café">
+  <meta property="og:title" content="N3 Café · Menú digital">
+  <meta property="og:description" content="Café, matcha, frappés y cookies en Villanueva, Zac. Explora el menú de N3 Café.">
+  <meta property="og:url" content="https://n3-cafe.netlify.app/">
+  <meta property="og:image" content="https://n3-cafe.netlify.app/n3-compartir.jpg">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="600">
+  <meta property="og:image:height" content="600">
+  <meta property="og:image:alt" content="Logo rosa de N3 Café">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Fraunces:ital,wght@1,750&amp;family=Instrument+Serif:ital@0;1&amp;display=swap">
+  <link rel="stylesheet" href="style.css">
+  <script src="menu.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="masthead">
+    <div class="wrap masthead-inner">
+      <a class="brand" href="./" aria-label="N3 Café, inicio"><img src="logo-n3.webp" width="48" height="48" alt=""></a>
+      <nav aria-label="Principal"><a href="#menu">Menú</a><a href="#visit">Visítanos</a></nav>
+      <a class="header-social" id="social">Síguenos ↗</a>
+    </div>
+  </header>
+  <main class="wrap">
+    <section class="hero" data-feature="cafe" aria-labelledby="name">
+      <div class="hero-copy">
+        <p class="status">N3 Café · Villanueva, Zac.</p>
+        <h1 id="name">Café <em>&</em> cookies</h1>
+      </div>
+      <div class="hero-halo" aria-hidden="true"></div>
+      <div class="hero-orbit" aria-hidden="true"></div>
+      <div class="hero-floor" aria-hidden="true"></div>
+      <div class="hero-depth" aria-hidden="true">
+        <div class="hero-object">
+          <img src="cafe-hero.webp" width="466" height="679" data-figure="cafe" alt="" fetchpriority="high">
+          <img src="matcha-hero.webp" width="467" height="663" data-figure="matcha" alt="">
+          <img src="cookie-hero.webp" width="516" height="510" data-figure="cookie" alt="">
+        </div>
+      </div>
+      <div class="hero-controls" role="group" aria-label="Explora los productos">
+        <button type="button" data-feature="cafe" aria-pressed="true">Café</button>
+        <button type="button" data-feature="matcha" aria-pressed="false">Matcha</button>
+        <button type="button" data-feature="cookie" aria-pressed="false">Cookie NY</button>
+      </div>
+      <div class="hero-card">
+        <div aria-live="polite" aria-atomic="true">
+          <h2 id="feature-title">Café</h2>
+          <p id="feature-description">Un americano intenso o un latte cremoso. Pide tu favorito caliente o con hielo.</p>
+        </div>
+        <div class="hero-actions">
+          <a class="primary" id="feature-menu" href="#menu">Ver en el menú <span aria-hidden="true">↘</span></a>
+          <div class="contact-links" role="group" aria-label="Contacto y ubicación">
+            <a id="hero-instagram" aria-label="Instagram de N3 Café" title="Instagram" hidden><span class="contact-icon instagram-icon" aria-hidden="true"></span></a>
+            <a id="hero-whatsapp" aria-label="WhatsApp para pedidos" title="WhatsApp" hidden><span class="contact-icon whatsapp-icon" aria-hidden="true"><span class="phone-icon"></span></span></a>
+            <a id="hero-maps" aria-label="Cómo llegar con Google Maps" title="Cómo llegar" hidden><span class="contact-icon maps-icon" aria-hidden="true"></span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="pastry-showcase" aria-labelledby="pastry-title">
+      <h2 id="pastry-title">Cookies y más</h2>
+      <div id="pastry-rail" class="pastry-rail">
+        <div id="pastry-cards" class="pastry-cards" data-layout="compact"></div>
+      </div>
+    </section>
+    <section id="menu" class="reveal" aria-labelledby="menu-title">
+      <h2 id="menu-title">Menú</h2>
+      <p id="empty-menu">La carta está pendiente de confirmación.</p>
+      <nav id="categories" aria-label="Categorías del menú" hidden></nav>
+      <div class="section-heading category-heading">
+        <h3 id="category-title" hidden></h3>
+      </div>
+      <p id="category-note" hidden></p>
+      <div id="products" aria-labelledby="category-title"></div>
+      <section id="drink-list-title" class="drink-list" aria-label="Carta de bebidas" hidden>
+        <div id="drink-list-groups"></div>
+      </section>
+    </section>
+    <section id="visit" class="reveal" aria-labelledby="visit-title" hidden>
+      <div>
+        <h2 id="visit-title"><strong>n3<span aria-hidden="true">♥</span></strong> café</h2>
+        <address id="address" hidden></address>
+        <a id="maps" class="primary" hidden>Cómo llegar ↗</a>
+      </div>
+      <div>
+        <h3 id="hours-title" hidden>Horarios</h3>
+        <p id="hours" hidden></p>
+        <div class="contact-links" role="group" aria-label="Contacto y redes sociales">
+          <a id="contact-phone" aria-label="Llamar a N3 Café" title="Llamar" hidden><span class="contact-icon call-icon" aria-hidden="true"><span class="phone-icon"></span></span></a>
+          <a id="contact-whatsapp" aria-label="WhatsApp de N3 Café" title="WhatsApp" hidden><span class="contact-icon whatsapp-icon" aria-hidden="true"><span class="phone-icon"></span></span></a>
+          <a id="contact-instagram" aria-label="Instagram de N3 Café" title="Instagram" hidden><span class="contact-icon instagram-icon" aria-hidden="true"></span></a>
+          <a id="facebook" aria-label="Facebook de N3 Café" title="Facebook" hidden><span class="facebook-icon" aria-hidden="true">f</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="wrap"><a href="https://miraidev.com/">MenúLi, un producto de <strong>MiraiDev</strong></a></footer>
+  <div class="order-bar">
+    <button id="open-order" type="button" aria-label="Ver selección vacía" aria-haspopup="dialog" aria-controls="order">
+      <span class="cart-mark" aria-hidden="true">
+        <span class="bread-bag"></span>
+        <span class="paw-trail">
+          <span class="paw-print"></span>
+          <span class="paw-print"></span>
+          <span class="paw-print"></span>
+        </span>
+      </span>
+      <span id="count" aria-hidden="true" hidden></span>
+    </button>
+  </div>
+  <dialog id="order" aria-labelledby="order-title">
+    <form method="dialog" class="section-heading">
+      <h2 id="order-title">Tu selección</h2>
+      <button>Cerrar</button>
+    </form>
+    <ul id="basket"></ul>
+    <p id="order-total" aria-live="polite" hidden></p>
+    <a id="send" class="primary" hidden>Realizar pedido por WhatsApp ↗</a>
+  </dialog>
+  <dialog id="extras-sheet" aria-labelledby="extras-title" aria-describedby="extras-item">
+    <form method="dialog" class="section-heading">
+      <h2 id="extras-title">Extras</h2>
+      <button aria-label="Cerrar extras">×</button>
+    </form>
+    <p id="extras-item"></p>
+    <form id="extras-config">
+      <div id="extras-options"></div>
+      <button class="primary" type="submit">Guardar extras</button>
+    </form>
+  </dialog>
+  <dialog id="product-sheet" aria-labelledby="sheet-title">
+    <form method="dialog"><button class="sheet-close" aria-label="Cerrar ficha">×</button></form>
+    <img id="sheet-image" alt="" hidden>
+    <div class="sheet-body">
+      <p id="sheet-category" class="status"></p>
+      <h2 id="sheet-title"></h2>
+      <p id="sheet-description" hidden></p>
+      <form id="product-config">
+        <fieldset id="sheet-sizes" hidden><legend>Tamaño</legend><div></div></fieldset>
+        <fieldset id="sheet-temperatures" hidden><legend>Preparación</legend><div></div></fieldset>
+        <fieldset id="sheet-milks" hidden><legend>Tipo de leche</legend><div></div></fieldset>
+        <fieldset id="sheet-flavors" hidden><legend>Sabor</legend><div></div></fieldset>
+        <div class="sheet-actions">
+          <div class="quantity-control" role="group" aria-label="Cantidad">
+            <button id="quantity-minus" type="button" aria-label="Reducir cantidad" disabled>−</button>
+            <output id="quantity-display" aria-live="polite">1</output>
+            <button id="quantity-plus" type="button" aria-label="Aumentar cantidad">+</button>
+            <input name="quantity" type="hidden" value="1">
+          </div>
+          <button class="primary" type="submit">Agregar al carrito <span id="sheet-price"></span></button>
+        </div>
+      </form>
+    </div>
+  </dialog>
+  <template id="product-template">
+    <article class="product">
+      <div class="product-open">
+        <img class="product-image" alt="" loading="lazy" hidden>
+        <span class="product-label"><span class="product-name"></span><span class="product-price" hidden></span></span>
+      </div>
+      <div class="actions">
+        <button class="product-add" type="button" aria-haspopup="dialog">
+          Agregar <span class="product-plus" aria-hidden="true">+</span>
+        </button>
+      </div>
+    </article>
+  </template>
+</body>
+</html>
